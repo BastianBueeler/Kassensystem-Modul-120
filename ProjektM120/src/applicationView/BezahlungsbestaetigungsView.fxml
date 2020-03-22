@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="383.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationView.BezahlungsbestaetigungsController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="146.0" text="Sind Sie sicher, dass Sie mit diesem Zahlungsmittel zahlen wollen?" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="146.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="Ja" layoutX="370.0" layoutY="263.0" mnemonicParsing="false" onAction="#nextView" prefHeight="44.0" prefWidth="68.0" text="Ja" AnchorPane.bottomAnchor="76.0" AnchorPane.rightAnchor="106.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="92.0" layoutY="263.0" mnemonicParsing="false" onAction="#previousView" text="Nein" AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="383.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationView.View5Controller">
+   <center>
+      <AnchorPane prefHeight="383.0" prefWidth="533.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="Lzahlungsmethode" alignment="CENTER" layoutX="16.0" layoutY="101.0" prefHeight="97.0" prefWidth="513.0" text="-Zahlungsmethode" AnchorPane.bottomAnchor="185.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="101.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="28.0" layoutY="198.0" prefHeight="75.0" prefWidth="502.0" text="Besuchen Sie uns bald wieder!" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="198.0">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

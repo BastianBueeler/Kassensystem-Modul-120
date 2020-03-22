@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="383.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationView.View1Controller">
+   <center>
+      <ImageView fitHeight="273.0" fitWidth="393.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../pictures/video_icon.jpg" />
+         </image>
+      </ImageView>
+   </center>
+   <bottom>
+      <Button fx:id="Zurueck_Help" mnemonicParsing="false" onAction="#previousViewZurueckStartseite" prefHeight="39.0" prefWidth="150.0" text="Zurück zur Startseite" BorderPane.alignment="TOP_RIGHT">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="30.0" right="30.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>

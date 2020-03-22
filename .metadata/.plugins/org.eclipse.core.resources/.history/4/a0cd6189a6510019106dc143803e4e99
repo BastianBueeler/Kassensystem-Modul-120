@@ -1,0 +1,53 @@
+package applicationView;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+
+public class View3Controller implements Initializable{
+	
+	@FXML
+	private Label lname;
+	
+	 private String name;
+	 private String zahl;
+	 private String hname;
+	 private String aname;
+	 private String mname;
+	 private String Image;
+	 
+	
+	void setName(String n) {
+		name = n;
+	}
+	
+	void setZahl(String z) {
+		zahl = z;
+	}
+	
+	void setHName(String nh) {
+		hname = nh;
+	}
+	
+	void setArtName(String a) {
+		aname = a;
+	}
+	
+	void setMarkenName(String m) {
+		mname = m;
+	}
+	
+	void setImage(String I) {
+		Image = I;
+	}
+	
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		lname.setText(name);
+		
+	}
+
+}
